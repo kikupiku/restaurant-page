@@ -1,0 +1,14 @@
+body::after {
+  background: url("https://www.thegrove.co.uk/wp-content/uploads/2019/05/The-Glasshouse-4-New-1367x911.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+
+}
