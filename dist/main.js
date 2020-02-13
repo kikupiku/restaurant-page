@@ -86,14 +86,51 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/*! exports provided: contactWrapper */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"contactWrapper\", function() { return contactWrapper; });\nlet contactWrapper = document.createElement('div');\ncontactWrapper.setAttribute('class', 'contact-wrapper');\n\n\n\n\n//# sourceURL=webpack:///./src/contact.js?");
+
+/***/ }),
+
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/*! exports provided: home */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"home\", function() { return home; });\nlet home = document.createElement('p');\nhome.setAttribute('class', 'welcome-message');\nhome.innerHTML = 'Welcome to our restaurant!';\n\n\n\n\n//# sourceURL=webpack:///./src/home.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log('cipas');\nlet x = document.getElementById('content');\nx.innerHTML = 'Hi there hello world';\n\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n\n\n\n\nlet content = document.getElementById('content');\n\nlet navBar = document.createElement('div');\nnavBar.setAttribute('class', 'navbar');\n\ncontent.appendChild(navBar);\n\nlet logo = document.createElement('img');\nlogo.setAttribute('src', '../assets/restaurant-logo.png');\nlogo.setAttribute('class', 'logo');\nnavBar.appendChild(logo);\n\nlet name = document.createElement('h1');\nname.innerHTML = 'RESTAURANT';\nnavBar.appendChild(name);\n\nlet linkList = document.createElement('ul');\nlinkList.setAttribute('class', 'link-list');\n\n// content.appendChild(home);\n\n// content.appendChild(menuChoice);\n\n// content.appendChild(contactWrapper);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/*! exports provided: menu */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"menu\", function() { return menu; });\nlet menu = document.createElement('img');\nmenu.setAttribute('class', 'menu');\nmenu.setAttribute('src', 'https://assets.atlasobscura.com/article_images/37742/image.jpg');\n\n\n\n\n//# sourceURL=webpack:///./src/menu.js?");
 
 /***/ })
 
