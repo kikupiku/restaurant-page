@@ -10,5 +10,43 @@ body::after {
   bottom: 0;
   right: 0;
   z-index: -1;
+}
 
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(8,8,8,.75);
+  left: -1px;
+  color: rgba(255,255,255,.69);
+}
+
+.logo {
+  height: 100px;
+  position: relative;
+  left: 15px;
+}
+
+h1 {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 120px;
+}
+
+.welcome-message {
+  position: relative;
+  width: 120px;
+  margin: 0 auto;
+  top: 400px;
+}
+
+.contact-wrapper {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  background-color: rgba(184,182,182,.78);
+  top: 200px;
 }
