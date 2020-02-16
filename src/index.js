@@ -10,7 +10,7 @@ navBar.setAttribute('class', 'navbar');
 content.appendChild(navBar);
 
 let logo = document.createElement('img');
-logo.setAttribute('src', '../assets/restaurant-logo.png');
+logo.setAttribute('src', './assets/restaurant-logo.png');
 logo.setAttribute('class', 'logo');
 navBar.appendChild(logo);
 
